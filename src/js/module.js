@@ -1,0 +1,1 @@
+angular.module('Cdb-Angular', ['ui.bootstrap', 'ui.router', 'ngCookies']);
