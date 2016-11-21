@@ -12,22 +12,23 @@
   <link href="styles/main.css" rel="stylesheet" media="screen">
   <!-- endbuild -->
   <!-- SCRIPTS -->
+
+</head>
+<body ng-controller="MasterCtrl">
+  <div id="page-wrapper" ng-class="{'open': toggle}" ng-cloak>
+        <!-- Main Content -->
+        <div ui-view></div>
+  </div><!-- End Page Wrapper -->
   <!-- build:js lib/js/main.min.js -->
   <script type="text/javascript" src="components/angular/angular.min.js"></script>
   <script type="text/javascript" src="components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
   <script type="text/javascript" src="components/angular-cookies/angular-cookies.min.js"></script>
   <script type="text/javascript" src="components/angular-ui-router/release/angular-ui-router.min.js"></script>
   <!-- endbuild -->
-  <!-- Custom Scripts -->
-  <script type="text/javascript" src="js/dashboard.min.js"></script>
-</head>
-<body ng-controller="MasterCtrl">
-  <div id="page-wrapper" ng-class="{'open': toggle}" ng-cloak>
-        <!-- Main Content -->
-        <div ui-view></div>
 
-      </div><!-- End Page Content -->
-    </div><!-- End Content Wrapper -->
-  </div><!-- End Page Wrapper -->
+  <script src="js/module.js"></script>
+  <script src="js/routes.js"></script>
+  <!--Controller-->
+  <script src="js/controllers/master-ctrl.js"></script>
 </body>
 </html>

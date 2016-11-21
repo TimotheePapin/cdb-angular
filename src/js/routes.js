@@ -13,15 +13,15 @@ angular.module('Cdb-Angular').config(['$stateProvider', '$urlRouterProvider',
         $stateProvider
             .state('dashboard', {
                 url: '/dashboard',
-                templateUrl: 'templates/dashboard.html'
+                templateUrl: 'views/dashboard.html'
             })
           .state('addComputer', {
             url: '/addComputer',
-            templateUrl: 'templates/addComputer.html'
+            templateUrl: 'views/addComputer.html'
           })
           .state('editComputer', {
             url: '/editComputer',
-            templateUrl: 'templates/editComputer.html'
+            templateUrl: 'views/editComputer.html'
           });
     }
 ]);
