@@ -27,7 +27,7 @@ https://johnpapa.net/
 2. Modify your components to use the controllers and services.
 
 ### Code Review : Code Architecure
-Separated components and controllers
+Separated components with  matching controllers
 API service
 
 ## 3-Security
